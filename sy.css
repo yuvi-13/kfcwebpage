@@ -1,0 +1,62 @@
+.g {
+  background-color: rgba(216, 29, 29, 0.493);
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+  color: #000;
+}
+.abt {
+  font-size: large;
+  background-color: beige;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dishes-list {
+  margin: 0 80px 0 180px;
+}
+
+.item {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.item .card {
+  border: none !important;
+  border-radius: 3px;
+}
+
+.item .card .card-body {
+  background-color: #f8f7f5;
+}
+.item .card .card-body .card-text {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (max-width: 993px) {
+  .item .card {
+    width: 100% !important;
+  }
+  .dishes-list {
+    margin: 0 80px 0 140px;
+  }
+}
+
+@media (min-width: 993px) {
+  .item .card .card-body .card-text {
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+}
+.feedback{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  background-color: black;
+  color: red;
+}
+
+/* 
+@media(max-width: 480px) {
+    .item .card{
+        width: 13rem !important;
+    }
+  } */
